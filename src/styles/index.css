@@ -24,6 +24,9 @@ body {
 .app {
   display: grid;
   height: 100vh;
+  overflow: hidden;
   background-repeat:no-repeat;
   background-size: cover;
+  background-position: bottom center;
+  box-sizing: border-box;
 }

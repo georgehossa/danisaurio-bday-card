@@ -1,0 +1,61 @@
+.card {
+  display: grid;
+  grid-template: 1fr / 1fr;
+}
+
+.card p {
+  margin: 0;
+}
+.card__wrapper {
+  grid-row: 2 / 3;
+  text-align: center;
+}
+
+.card__intro,
+.card__date {
+  font-size: 1.3125rem;
+}
+
+.card__intro,
+.card__date,
+.card__footer {
+  color: white;
+}
+
+.card__intro, .card__title {
+  rotate: -3deg;
+}
+
+.card__title {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-weight: normal;
+  font-size: 1.3125rem;
+  margin: 0 0 1rem;
+  line-height: 1;
+}
+
+.card__title span {
+  display: block;
+}
+
+.card__title .title__top {
+  font-size: 2.125rem;
+}
+
+.card__title .title__bottom {
+  font-size: 3.25rem;
+}
+
+.card__address.card__address {
+  margin: .5rem 0;
+}
+
+.card__button {
+  max-width: 60%;
+  margin: 1rem auto;
+}
+
+.card__footer {
+  padding-bottom: .5rem;
+}
