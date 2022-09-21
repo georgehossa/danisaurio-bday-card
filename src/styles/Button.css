@@ -1,0 +1,25 @@
+.button__primary--default,
+.button__primary--default:visited,
+.button__primary--default:active,
+.button__primary--default:focus {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  width: 100%;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-family: var(--font-primary);
+  font-weight: bold;
+  text-decoration: none;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  transition: .5s ease;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.button__primary--default:hover {
+  background-color: var(--color-primary-hover);
+}

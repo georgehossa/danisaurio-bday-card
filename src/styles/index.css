@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Schoolbell&display=swap');
+
+:root {
+  --font-primary: 'Schoolbell', cursive;
+  --font-secondary:'Irish Grover', cursive;
+  --color-primary: hsl(49, 100%, 50%);
+  --color-primary-hover: hsl(49, 100%, 30%);
+  --color-secondary: hsl(201, 90%, 12%);
+  --color-secondary-hover: hsl(201, 90%, 12%);
+  --color-secondary-alpha-50: hsla(201, 90%, 12%, 0.5);
+  --color-secondary-alpha-30: hsla(201, 90%, 12%, 0.3);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--color-secondary);
+}
+
+.app {
+  display: grid;
+  height: 100vh;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
